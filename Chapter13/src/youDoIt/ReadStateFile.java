@@ -7,12 +7,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.text.DecimalFormat;
 import java.util.Scanner;
-
-import static java.nio.file.StandardOpenOption.CREATE;
 import static java.nio.file.StandardOpenOption.READ;
-import static java.nio.file.StandardOpenOption.WRITE;
+
 
 public class ReadStateFile {
     public static void main(String[] args)
@@ -26,7 +23,7 @@ public class ReadStateFile {
         final String ID_FORMAT = "000";
         final String NAME_FORMAT = "          ";
         final int NAME_LENGTH = NAME_FORMAT.length();
-        final String HOME_STATE = "WI";
+        final String HOME_STATE = "IA";
         final String BALANCE_FORMAT = "0000.00";
         String delimiter = ",";
         String s = ID_FORMAT + delimiter + NAME_FORMAT + delimiter +
@@ -91,4 +88,5 @@ public class ReadStateFile {
             System.out.println("Message: " + e);
         }
     }
+
 }
