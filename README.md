@@ -5,8 +5,9 @@
 <li>AUTHORS: Logan Gosch                             </li>
 <li>USER INSTRUCTIONS: Do what you're asked.         </li>
 
-<p></p>
+<p>The reader file uses buffers and arrays to read from and display the text from the files. This is done using buffers to
+differeniate the characters and new lines. Using the specific finder also uses buffer and assigns it to a integer that the user enters. The program read as </p>
 
-<img src="" alt="Screenshot">
+<img src="Bruh.PNG" alt="Screenshot">
 
 <hr>
