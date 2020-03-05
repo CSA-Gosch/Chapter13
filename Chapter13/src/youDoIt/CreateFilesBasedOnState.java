@@ -19,11 +19,11 @@ public class CreateFilesBasedOnState {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        Path inStateFile = Paths.get("C:\\Users\\lg154842\\Desktop\\Chapter13\\src\\youDoIt\\InStateCusts.txt");
-        Path outOfStateFile = Paths.get("C:\\Users\\lg154842\\Desktop\\Chapter13\\src\\youDoIt\\OutOfStateCusts.txt");
+        Path inStateFile = Paths.get("C:\\Users\\lg154842\\Documents\\GitHub\\Chapter13\\Chapter13\\src\\youDoIt\\InStateCusts.txt");
+        Path outOfStateFile = Paths.get("C:\\Users\\lg154842\\Documents\\GitHub\\Chapter13\\Chapter13\\src\\youDoIt\\OutOfStateCusts.txt");
 
         final String ID_FORMAT = "000";
-        final String NAME_FORMAT = "    ";
+        final String NAME_FORMAT = "           ";
         final int NAME_LENGTH = NAME_FORMAT.length();
         final String HOME_STATE = "IA";
         final String BALANCE_FORMAT = "0000.00";
