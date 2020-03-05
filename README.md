@@ -5,8 +5,10 @@
 <li>AUTHORS: Logan Gosch                             </li>
 <li>USER INSTRUCTIONS: Do what you're asked.         </li>
 
-<p>The reader file uses buffers and arrays to read from and display the text from the files. This is done using buffers to
-differeniate the characters and new lines. Using the specific finder also uses buffer and assigns it to a integer that the user enters. The program read as </p>
+<p>The reader class uses buffers and arrays to read from and display the text from the files. This is done using buffers to
+differeniate the characters and new lines. Using the specific finder also uses buffer and assigns it to a integer that the user enters. The program reads as a the entire file and that's why the buffer is used.</p>
+<p>The writer class is very similar as in it uses buffers, but different because it writes by using string builder to use multiple 
+inputs. More than one parameters makes the method use a delimiter to identify the different elements. Writing to a file is essential to the scope of programming</p>
 
 <img src="Bruh.PNG" alt="Screenshot">
 
