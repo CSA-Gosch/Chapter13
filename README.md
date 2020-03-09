@@ -16,3 +16,14 @@ inputs. More than one parameters makes the method use a delimiter to identify th
 <img src="Bruh.PNG" alt="Screenshot">
 
 <hr>
+
+# PLTW 1.2.1
+
+<li>PURPOSE OF PROJECT: 1.2.1                   </li>
+<li>VERSION or DATE: 3/9/20                          </li>
+<li>HOW TO START THIS PROJECT:                       </li>
+<li>AUTHORS: Logan Gosch                             </li>
+<li>USER INSTRUCTIONS: Do what you're asked.         </li>
+<p>#3: The methods used are readString() and writeString(). The former involves taking a file path and displaying it
+and throwing an error if it doesn't exist. The latter entails taking a string or multiple strings and writing them to a file.</p>
+<p>#29: The for loop is better knowing the limit, and the while loop is better if you don't know or want a limit.</p>
