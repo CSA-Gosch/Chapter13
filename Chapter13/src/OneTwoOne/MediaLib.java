@@ -101,24 +101,16 @@ public class MediaLib
             
 //        MySong mine = new MySong();
 //        System.out.println("MINE: " + mine.showSong());
-        MediaFile.writeString(song1.getTitle() + delimiter + song1.getPrice());
-        MediaFile.writeString(song2.getTitle() + delimiter + song2.getPrice());
-        MediaFile.writeString(song3.getTitle() + delimiter + song3.getPrice());
-        MediaFile.writeString(song4.getTitle() + delimiter + song4.getPrice());
-        MediaFile.writeString(song5.getTitle() + delimiter + song5.getPrice());
-        MediaFile.writeString(song6.getTitle() + delimiter + song6.getPrice());
-        MediaFile.writeString(song7.getTitle() + delimiter + song7.getPrice());
-        MediaFile.writeString(song8.getTitle() + delimiter + song8.getPrice());
+        MediaFile.writeString(song1.getTitle() + delimiter + song1.getRating());
+        MediaFile.writeString(song2.getTitle() + delimiter + song2.getRating());
+        MediaFile.writeString(song3.getTitle() + delimiter + song3.getRating());
+        MediaFile.writeString(song4.getTitle() + delimiter + song4.getRating());
+        MediaFile.writeString(song5.getTitle() + delimiter + song5.getRating());
+        MediaFile.writeString(song6.getTitle() + delimiter + song6.getRating());
+        MediaFile.writeString(song7.getTitle() + delimiter + song7.getRating());
+        MediaFile.writeString(song8.getTitle() + delimiter + song8.getRating());
         MediaFile.saveAndClose();
         String songInfo = MediaFile.readString();
-
-        String s = MediaFile.readString();
-
-        while (s != null)
-        {
-            System.out.println("From File: " + s);
-            s = MediaFile.readString();
-        }
 
     }
 }
