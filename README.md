@@ -27,6 +27,8 @@ inputs. More than one parameters makes the method use a delimiter to identify th
 <p>#3: The methods used are readString() and writeString(). The former involves taking a file path and displaying it
 and throwing an error if it doesn't exist. The latter entails taking a string or multiple strings and writing them to a file.</p>
 <p>#29: The for loop is better knowing the limit, and the while loop is better if you don't know or want a limit.</p>
-<p>#Conclusion 1: One scenario where a for loop would be preferred is if you wanted to make a program to track and limit sales or inventory to a certain amount each day or so. A while loop would look something like a program design to keep a system going unless another fails.</p>
+<p>#Conclusion 1: One scenario where a for loop would be preferred is if you wanted to make a program to track and limit sales or inventory to a 
+certain amount each day or so. A while loop would look something like a program design to keep a system going unless another fails.</p>
 <p>#Conclusion 2: The changes in hardware was the uprising of mobile. This caused the new android to adapt to the new low power vendetta.</p>
 <img src="Bruh2.PNG" alt="Screenshot">
+<img src="Bruh3.PNG" alt="Screenshot">
