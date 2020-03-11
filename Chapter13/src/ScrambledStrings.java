@@ -23,9 +23,13 @@ public class ScrambledStrings
 
         for (int i = 1; i < word.length(); i++)
         {
-            if(word.substring(i - 1, i).equals("A") && word.substring(i, i+1).equals("A"));
+            if(word.substring(i - 1, i).equals("A") && !word.substring(i, i+1).equals("A")){
+                word = word.substring(0, i-1) + word.substring(i, i+1) + word.substring(i-1,i)
+                        + word.substring(i+1);
+                i++;
+            }
         }
-
+        return word;
     }
 
     /********************** Test *********************/
